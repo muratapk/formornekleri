@@ -66,7 +66,7 @@ namespace formornekleri
             listBox1.Items.Clear();
             for (int i = 0; i < 10; i++)
             {
-                if (notlar[i] < 50)
+                if (notlar[i] <= 50)
                 {
                     listBox1.Items.Add(ogrenciad[i] + "\t" + notlar[i]);
                 }
